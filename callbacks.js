@@ -25,12 +25,6 @@ getUserDetails("123").then((result)=> {
 }).then((result) => console.log(result))
   .catch((error) => console.log(error));
 
-// getUserDetails("123", function(userroll){
-//     getUserSubjects(userroll, function(userSubId){
-//         getUserMarks(userSubId)
-//     }) 
-// });
-
 const p1 = new Promise((resolve, reject) => {
     if(true){
         resolve("Promise Resolved");
